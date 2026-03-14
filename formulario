@@ -1,0 +1,38 @@
+<!DOCTYPE html><html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formulário de Planejamento de Anúncios</title>
+<style>
+body{font-family:Arial,Helvetica,sans-serif;background:#f4f6fb;margin:0;padding:20px}
+.container{max-width:800px;margin:auto;background:white;padding:25px;border-radius:10px;box-shadow:0 0 10px rgba(0,0,0,0.1)}
+h1{color:#333;text-align:center}
+h2{margin-top:25px;color:#444}
+label{display:block;margin:6px 0}
+textarea,input[type=text]{width:100%;padding:8px;margin-top:5px;border-radius:5px;border:1px solid #ccc}
+button{margin-top:20px;background:#25d366;color:white;border:none;padding:14px 20px;border-radius:8px;font-size:16px;cursor:pointer;width:100%}
+button:hover{background:#1ebe5d}
+</style>
+</head>
+<body><div class="container">
+<h1>Formulário de Planejamento de Anúncios</h1>
+<p>Preencha as opções abaixo para que possamos criar sua campanha.</p><h2>1. Objetivo do anúncio</h2>
+<label><input type="checkbox" name="objetivo" value="Vender produtos"> Vender produtos</label>
+<label><input type="checkbox" name="objetivo" value="Conseguir novos clientes"> Conseguir novos clientes</label>
+<label><input type="checkbox" name="objetivo" value="Receber mensagens no WhatsApp"> Receber mensagens no WhatsApp</label>
+<label><input type="checkbox" name="objetivo" value="Receber ligações"> Receber ligações</label>
+<label><input type="checkbox" name="objetivo" value="Levar pessoas para o site"> Levar pessoas para o site</label>
+<label><input type="checkbox" name="objetivo" value="Divulgar a marca"> Divulgar a marca</label>
+<input type="text" id="outroObjetivo" placeholder="Outro objetivo"><h2>2. O que deseja anunciar?</h2>
+<label><input type="checkbox" name="anuncio" value="Produto específico"> Produto específico</label>
+<label><input type="checkbox" name="anuncio" value="Serviço específico"> Serviço específico</label>
+<label><input type="checkbox" name="anuncio" value="Vários produtos"> Vários produtos</label>
+<label><input type="checkbox" name="anuncio" value="Promoção"> Promoção</label>
+<label><input type="checkbox" name="anuncio" value="Lançamento"> Lançamento</label>
+<textarea id="descricao" placeholder="Descreva rapidamente"></textarea><h2>3. Público-alvo</h2>
+<label><input type="radio" name="sexo" value="Masculino"> Masculino</label>
+<label><input type="radio" name="sexo" value="Feminino"> Feminino</label>
+<label><input type="radio" name="sexo" value="Ambos"> Ambos</label><input type="text" id="idade" placeholder="Faixa de idade"><h2>4. Região do anúncio</h2>
+<label><input type="checkbox" name="regiao" value="Minha cidade"> Minha cidade</label>
+<label><input type="checkbox" name="regiao" value="Minha região"> Minha região</label>
+<label><input type="checkbox" name="regiao" value="Meu estado"> Meu estado</label>
